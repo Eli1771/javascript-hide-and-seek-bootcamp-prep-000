@@ -11,7 +11,7 @@ function increaseRankBy(n) {
   for (var i in lists) {
     var list = lists[i].children;
     for (var j in list) {
-      list[j].innerHTML = parseInt(j.innerHTML + n);
+      list[j].innerHTML = parseInt(list[j].innerHTML + n);
     }
   }
 }
