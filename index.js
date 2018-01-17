@@ -23,5 +23,5 @@ function deepestChild() {
     grand = next;
     next = grand.children[0];
   }
-  return next;
+  return grand;
 }
